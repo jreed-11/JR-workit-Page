@@ -43,3 +43,82 @@ html {
 }
 
 /* Utility Classes */
+.d-flex {
+  display: flex;
+}
+
+.headings {
+  font-family: "Fraunces", serif;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-size: var(--fs-body);
+  line-height: var(--ls-body);
+}
+
+.main-container {
+  /* border: 2px solid blue; */
+  margin: 0 auto;
+  max-width: 144rem;
+}
+
+/* Hero Section */
+
+.hero {
+  background-color: var(--bg-colour-hero);
+  border-bottom-left-radius: 60% 10%;
+  border-bottom-right-radius: 50% 10%;
+  max-height: 73rem;
+  position: relative;
+}
+
+.hero__nav {
+  justify-content: space-between;
+
+  padding: 4.5rem 16.5rem 0 16.5rem;
+  margin-top: 1rem;
+}
+
+.hero__nav__btn {
+  color: var(--fc-secondary-default);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.hero__bg__img1 {
+  max-width: 27rem;
+  position: absolute;
+  object-position: none;
+}
+
+.hero__heading__section {
+  margin: 0 auto;
+  max-width: 63.5rem;
+}
+
+.hero__title {
+  color: var(--fc-secondary-default);
+  font-size: var(--fs-headingL);
+}
+
+/* .hero__bg__img2 {
+} */
+
+.hero__img {
+  position: absolute;
+  left: 20%;
+  bottom: -40%;
+  max-width: 76.7rem;
+  z-index: 10;
+}
+
+/* CTA Section */
+
+.cta__card {
+  flex-direction: column;
+}
+
+.cta__img {
+  max-width: 47.7rem;
+}
