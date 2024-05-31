@@ -1,0 +1,44 @@
+/* Global Default Settings */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* Custom Properties */
+
+:root {
+  /* font sizes */
+  --fs-body: 1.8rem;
+  --fs-headingS: 3.2rem;
+  --fs-headingM: 5.6rem;
+  --fs-headingL: 8rem;
+  /* font weights */
+  --fw-body-reg: 400;
+  --fw-heading-semibold: 600;
+  /* font Colours */
+  --fc-primary-default: #24053e;
+  --fc-primary-hover: #44ffa1;
+  --fc-secondary-default: #fff;
+  /* Line Spacing */
+  --ls-body: 3.2rem;
+  --ls-headingS: 4rem;
+  --ls-headingM: 5.6rem;
+  --ls-headingL: 8rem;
+
+  /* Background Colours */
+  --bg-colour-hero: #24053e;
+  --bg-colour-primary: #fcf8ff;
+  --bg-colour-secondary: #ffffff;
+  --bg-colour-social: #584d62;
+  /* Button Colours */
+  --btn-primary-default: #44ffa1;
+  --btn-primary-hover-default: #24053e;
+}
