@@ -145,10 +145,12 @@ body {
 
 .product-info {
   align-items: center;
+  background-color: var(--bg-colour-primary);
   color: var(--fc-primary-default);
   gap: 2.5rem;
   margin: 0 auto;
   margin-top: 25rem;
+  margin-bottom: 11rem;
   max-width: 111.4rem;
   text-align: center;
 }
