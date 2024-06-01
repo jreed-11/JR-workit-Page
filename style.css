@@ -69,6 +69,10 @@ html {
   text-decoration-thickness: 3px;
 }
 
+.margin-center {
+  margin: 0 auto;
+}
+
 /* --------------------------- */
 
 body {
@@ -79,7 +83,7 @@ body {
 
 .main-container {
   /* border: 2px solid blue; */
-  margin: 0 auto;
+  /* padding-bottom: 25rem; */
   max-width: 144rem;
 }
 
@@ -123,10 +127,8 @@ body {
 
 .hero__heading__section {
   align-items: center;
-  justify-content: center;
   flex-direction: column;
   gap: 2.5rem;
-  margin: 0 auto;
   max-width: 63.5rem;
 }
 
@@ -149,9 +151,7 @@ body {
   background-color: var(--bg-colour-primary);
   color: var(--fc-primary-default);
   gap: 2.5rem;
-  margin: 0 auto;
   margin-top: 25rem;
-  margin-bottom: 11rem;
   max-width: 111.4rem;
   text-align: center;
 }
@@ -181,7 +181,7 @@ body {
 
 .cta {
   position: relative;
-  margin: 0 auto;
+  margin-bottom: 23rem;
   max-width: 111.2rem;
   z-index: 2;
 }
@@ -222,4 +222,18 @@ body {
   left: 62%;
   top: 62%;
   max-width: 25rem;
+}
+
+.footer {
+  border-radius: 2px solid teal;
+  text-align: center;
+}
+
+.footer__logo {
+  margin-bottom: 5rem;
+}
+
+.footer__socials {
+  gap: 3rem;
+  justify-content: center;
 }
