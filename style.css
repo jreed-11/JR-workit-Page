@@ -16,6 +16,7 @@ html {
 
 :root {
   /* font sizes */
+  --fs-bodyS: 1.7rem;
   --fs-body: 1.8rem;
   --fs-headingXS: 2.4rem;
   --fs-headingS: 3.2rem;
@@ -178,10 +179,48 @@ body {
 
 /* CTA Section */
 
+.cta {
+  border: 2px solid red;
+
+  position: relative;
+  max-width: 111.2rem;
+  z-index: 2;
+}
+
 .cta__card {
+  color: var(--fc-secondary-default);
+  background-color: var(--bg-colour-hero);
   flex-direction: column;
+  gap: 3.2rem;
+  padding: 6.4rem;
+  position: absolute;
+  left: 38%;
+  top: 37%;
+  max-width: 73rem;
 }
 
 .cta__img {
   max-width: 47.7rem;
+}
+
+.cta__heading {
+  font-size: var(--fs-headingM);
+  font-weight: 400;
+  letter-spacing: -0.2rem;
+}
+
+.cta__para {
+  font-size: var(--fs-bodyS);
+  max-width: 60.2rem;
+}
+
+.cta__btn {
+  max-width: fit-content;
+}
+
+.cta__bg__img {
+  position: absolute;
+  left: 62%;
+  top: 62%;
+  max-width: 25rem;
 }
