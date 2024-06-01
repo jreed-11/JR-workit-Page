@@ -44,6 +44,14 @@ html {
   --btn-primary-hover-default: #24053e;
 }
 
+/* Btn Hover States */
+
+.btn:hover {
+  background-color: var(--btn-primary-hover-default);
+  color: var(--fc-primary-hover);
+  outline: 2px solid var(--btn-primary-default);
+}
+
 /* Utility Classes */
 
 .d-flex {
@@ -57,6 +65,7 @@ html {
 
 .btn {
   background-color: var(--btn-primary-default);
+  cursor: pointer;
   color: var(--fc-primary-default);
   font-weight: bold;
   padding: 1.6rem 3.2rem;
@@ -159,6 +168,7 @@ body {
 .product__card {
   text-align: center;
   margin-bottom: 28.1rem;
+  height: 30.8rem;
   max-width: 35.4rem;
 }
 
@@ -236,4 +246,5 @@ body {
 .footer__socials {
   gap: 3rem;
   justify-content: center;
+  margin-bottom: 3rem;
 }
