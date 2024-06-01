@@ -180,9 +180,8 @@ body {
 /* CTA Section */
 
 .cta {
-  border: 2px solid red;
-
   position: relative;
+  margin: 0 auto;
   max-width: 111.2rem;
   z-index: 2;
 }
