@@ -43,6 +43,7 @@ html {
 }
 
 /* Utility Classes */
+
 .d-flex {
   display: flex;
 }
@@ -59,6 +60,14 @@ html {
   padding: 1.6rem 3.2rem;
   text-decoration: none;
 }
+
+.hero__text--underline {
+  text-decoration: underline solid #44ffa1;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 3px;
+}
+
+/* --------------------------- */
 
 body {
   font-family: "Manrope", sans-serif;
