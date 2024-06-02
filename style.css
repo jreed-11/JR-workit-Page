@@ -52,6 +52,10 @@ html {
   outline: 2px solid var(--btn-primary-default);
 }
 
+.social__img:hover {
+  cursor: pointer;
+}
+
 /* Utility Classes */
 
 .d-flex {
