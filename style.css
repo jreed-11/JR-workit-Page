@@ -296,7 +296,8 @@ body {
   .product__card {
     text-align: left;
     height: 0;
-    max-width: 49.3rem;
+    position: relative;
+    max-width: 47rem;
   }
 
   .product__card__heading {
@@ -305,5 +306,11 @@ body {
 
   .product__card__para {
     font-size: 1.6rem;
+  }
+
+  .product__card__number {
+    position: absolute;
+    top: 80px;
+    right: 500px;
   }
 }
