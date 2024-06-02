@@ -252,3 +252,58 @@ body {
   justify-content: center;
   margin-bottom: 3rem;
 }
+
+/* MEDIA Queries */
+
+/* Tablet */
+
+@media screen and (max-width: 860px) {
+  .main-container {
+    max-width: 76.8rem;
+  }
+
+  /* Hero Section */
+
+  .hero {
+    height: 59rem;
+  }
+
+  .hero__nav {
+    padding: 4rem 3.2rem 0 4rem;
+  }
+
+  .hero__heading__section {
+    max-width: 57.3rem;
+  }
+
+  .hero__title {
+    font-size: 6.5rem;
+    padding-top: 5.2rem;
+  }
+  .hero__img {
+    position: absolute;
+    top: 73%;
+    left: 22%;
+    max-width: 51rem;
+  }
+
+  /* Product Hero Section */
+
+  .product-info {
+    flex-direction: column;
+    max-width: 57rem;
+  }
+  .product__card {
+    text-align: left;
+    height: 0;
+    max-width: 49.3rem;
+  }
+
+  .product__card__heading {
+    font-size: 2.8rem;
+  }
+
+  .product__card__para {
+    font-size: 1.6rem;
+  }
+}
