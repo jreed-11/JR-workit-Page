@@ -164,6 +164,7 @@ body {
   background-color: var(--bg-colour-primary);
   color: var(--fc-primary-default);
   gap: 2.5rem;
+
   margin-top: 25rem;
   max-width: 111.4rem;
   text-align: center;
@@ -171,9 +172,10 @@ body {
 
 .product__card {
   text-align: center;
+  padding: 0 1rem;
   margin-bottom: 28.1rem;
   height: 30.8rem;
-  max-width: 35.4rem;
+  max-width: 36.4rem;
 }
 
 .product__card__number {
@@ -257,8 +259,9 @@ body {
 
 /* Tablet */
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 850px) {
   .main-container {
+    margin: 0.5rem;
     max-width: 76.8rem;
   }
 
@@ -281,7 +284,7 @@ body {
     padding-top: 5.2rem;
   }
   .hero__img {
-    position: absolute;
+    position: sticky;
     top: 73%;
     left: 22%;
     max-width: 51rem;
@@ -291,17 +294,24 @@ body {
 
   .product-info {
     flex-direction: column;
+    gap: 4.8rem;
+    margin-bottom: 20rem;
     max-width: 57rem;
   }
   .product__card {
     text-align: left;
     height: 0;
     position: relative;
+    height: 13.6rem;
+    margin-bottom: 0;
+    max-height: min-content;
     max-width: 47rem;
   }
 
   .product__card__heading {
     font-size: 2.8rem;
+    padding-bottom: 1.8rem;
+    margin: 0;
   }
 
   .product__card__para {
@@ -310,7 +320,67 @@ body {
 
   .product__card__number {
     position: absolute;
-    top: 80px;
+    top: 50px;
     right: 500px;
+  }
+
+  /* cta section */
+
+  .cta__heading {
+    font-size: 4.8rem;
+    line-height: 4.5rem;
+  }
+
+  .cta__card {
+    padding: 4.8rem 5.6rem 5.6rem 5.6rem;
+    left: 22%;
+    top: 51%;
+    max-width: 51.4rem;
+  }
+
+  .cta__img {
+    max-width: 26.5rem;
+  }
+
+  .cta__para {
+    font-size: 1.6rem;
+  }
+
+  .cta__btn {
+    font-size: 1.6rem;
+    padding: 1.1rem 2.3rem;
+  }
+
+  /* footer */
+
+  .footer {
+    margin-top: 35rem;
+  }
+
+  /* mobile */
+
+  @media screen and (max-width: 650px) {
+    /* Product Info Section */
+
+    .product-info {
+    }
+
+    .product__card {
+      border: 2px solid red;
+      text-align: center;
+    }
+
+    /* cta section */
+
+    .cta {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .cta__card {
+      left: 22%;
+      top: 98%;
+      max-width: 34rem;
+    }
   }
 }
