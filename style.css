@@ -377,8 +377,13 @@ body {
       align-items: center;
     }
 
+    .cta__img {
+      position: sticky;
+    }
+
     .cta__card {
-      left: 22%;
+      position: sticky;
+      left: 17%;
       top: 98%;
       max-width: 34rem;
     }
