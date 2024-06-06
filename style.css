@@ -361,10 +361,20 @@ body {
 
   @media screen and (max-width: 650px) {
     .main-container {
+      margin: 0 auto;
       max-width: 37.5rem;
     }
 
     /* Hero Section */
+
+    .hero {
+      padding: 2.5rem;
+      height: 50rem;
+    }
+
+    .hero__nav {
+      padding: 0;
+    }
 
     .hero__title {
       font-size: 5rem;
@@ -382,6 +392,7 @@ body {
     /* Product Info Section */
 
     .product-info {
+      margin-top: 15rem;
       gap: 10rem;
     }
 
